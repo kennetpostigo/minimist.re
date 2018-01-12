@@ -4,7 +4,7 @@ A no-frills cli argument parser for reason, inspired by [minimist](https://www.n
 
 ## Example usage
 (from [pack.re](https://www.npmjs.com/package/pack.re)):
-```
+```reason
 
 let parse = Minimist.parse(~alias=[("h", "help")], ~presence=["help"], ~multi=["rename"], ~strings=["base"]);
 
